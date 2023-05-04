@@ -8,11 +8,11 @@ Short notes on explanations & code examples I've taken whilst learning about des
 
 **O**pen-closed
 
-**L**iskov Substitution 
+**L**iskov Substitution: subtypes must be substitutable for their base type (square is not a subtype of rectangle example (equal sides -> one parameter hence does not correctly implement base class methods)
 
-**I**nterface Segregation 
+**I**nterface Segregation: clients should not be forced to depend on methods they do not use. Split large interfaces into smaller ones. Inherit multiple if required. 
 
-**D**ependency Inversion 
+**D**ependency Inversion: High-level modules should not depend on low-level modules. Both should depend on abstraction. 
 
 
 ## Types of Design Patterns
